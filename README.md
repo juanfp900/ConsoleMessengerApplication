@@ -1,7 +1,7 @@
 # ConsoleMessengerApplication
-This applciation allows for multiple clients to communicate with a each other from any computer with a connection. 
-Any client that compiles and runs these files will be able to communicate in a messenger style layout assuming 
-the server is running and are connected to the same port number as the server. 
+This applciation allows for multiple clients to communicate with a each other from any computer that has a connection. 
+Any client that compiles and runs these files will be able to communicate in a messenger console style layout assuming 
+the server is running and each clients uses the exact same port number as the server. 
 
 # Prerequisites
 java version "1.8.0_05"
