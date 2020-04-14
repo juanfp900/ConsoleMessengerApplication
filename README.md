@@ -14,15 +14,18 @@ open 3 or more terminal windows and navigate to the specified
 local directory with all the files in each terminal window
 
 Ensure that exactly one terminal window runs the server at all times.
-To run a server and a client, pick a port number to put as an argument.
-java Server <port number> so if we pick port number "7000" it will look like so:
+To run a server and a client, pick a port number to put in the first 
+argument. It should look like so.
          
+          java Server <port number>
           java Server 7000 
-
+          
+          java Client <port number>
           java Client 7000
           
-And follow the prompts that appear on the screen. There can be many clients that can
-connect and message each other using this program. 
+Follow the prompts that appear on the Client window. You should see "Client Connected"
+on the server window everytime a client is connected.
+(There can be many clients that can connect and message in this program. 
 
 
 
