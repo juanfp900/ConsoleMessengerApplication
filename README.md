@@ -6,17 +6,17 @@ the server is running and each clients uses the exact same port number as the se
 # Prerequisites
 java version "1.8.0_05"
 Java(TM) SE Runtime Environment (build 1.8.0_05-b13)
-are used in this project, but any Java version after 7 should work.
+is used in this project, but any Java version after 7 should work.
 
 # Instructions to run
 Have every file located in a speicfied local directory. 
 Compile every .java file within directory using javac *.java 
 open 3 or more terminal windows (each window will simulate a specific computer) and navigate to the specified 
-local directory with all the files in each terminal window
+local directory with all the files in each terminal window.
 
 Ensure that exactly one terminal window runs the server at all times.
 To run a server and a client, pick a port number to put in the first 
-argument. It should look like so.
+argument. It should look like so:
          
           java Server <port number>
           java Server 7000 
