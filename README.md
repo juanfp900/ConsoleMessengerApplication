@@ -1,6 +1,7 @@
 # ConsoleMessengerApplication
-This applciation allows for multiple clients to communicate with a each other from any computer with connection. 
-Any client that compiles and runs these files will be connected to the server and will share a port number at run time. 
+This applciation allows for multiple clients to communicate with a each other from any computer with a connection. 
+Any client that compiles and runs these files will be able to communicate in a messenger style layout assuming 
+the server is running and are connected to the same port number as the server. 
 
 # Prerequisites
 java version "1.8.0_05"
@@ -10,7 +11,7 @@ are used in this project, but any Java version after 7 should work.
 # Instructions to run
 Have every file located in a speicfied local directory. 
 Compile every .java file within directory using javac *.java 
-open 3 or more terminal windows and navigate to the specified 
+open 3 or more terminal windows (each window will simulate a specific computer) and navigate to the specified 
 local directory with all the files in each terminal window
 
 Ensure that exactly one terminal window runs the server at all times.
